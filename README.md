@@ -1,23 +1,21 @@
 # Moje projekty
+Hi, my name is Jędrzej Chmiel, and this is a list of some of my projects. Below each project's slow description you can find following things:
+* link to the detailed description of the project (Usually it is a link to a githab repository to a README.md file, in which there is project description.)
+* link to a video with an overview of the project (if such a video exists)
+* link to repository
+* one screenshot
 
-Cześć, nazywam się Jędrzej Chmiel, a to jest lista części moich projektów. Przy każdym projekcie znajduje się
-* link do dokładnego opisu projektu (zazwyczaj jest to link do repozytorium na githabie do pliku README.md w którym znajduje się dokładny opis projektu)
-* link do video z omówieniem danego projektu (jeżeli takie video istnieje)
-* link do repozytorium
-* jeden screeen
+I am a student of Computer Science (second year) at the Warsaw University of Technology at WEiTI (Faculty of Electronics and Information Technology). I am looking for an apprenticeship or internship for vacation (2023). Here is [link to my CV](https://drive.google.com/file/d/1WSfwEiToRkPZTQwJ-hS2UgAob4_LrOTU/view?usp=share_link), it contains a description of my skills and contact details. If you want to contact me, the best way is to write me a message on [LinkedIn (link)](https://www.linkedin.com/in/j%C4%99drzej-chmiel-481a8423b/).
 
-Jestem studentem drugiego roku informatyki na Politechnice Warszawskiej na WEiTI (Wydział Elektroniki i Technik Informacyjnych). Szukam praktyk/stażu/pracy na wakacje (2023 roku). Oto [link do mojego CV](https://drive.google.com/file/d/1WSfwEiToRkPZTQwJ-hS2UgAob4_LrOTU/view?usp=share_link), znajduje się w nim opis moich umiejętności i dane kontaktowe do mnie.
-
-
-## Projekty:
-1. [aplikacja na androida](#dukes-excercise-kotlin-android-studio) to trenowania uników przed uderzeniami
-2. [symulacja protokołu routingu RIP](#symulacja-protokołu-rip-routing-information-protocol-c) (Routing Information Protocol)
-3. próba stworzenia (i wytrenowania) [sieci neuronowej zdolnej do napisania nowego roździału Harrego Pottera](#harry-potter-chapter-writter-python-pytorch-jupyternotebook-numpy)
-5. [sklep internetowy](#malwa-tea-php-javascript-sql-html-css) fikcyjnej firmy "malwa_tea" (strona internetowa)
-6. [aplikacja desktopowa](#league-viewer-java-swing-maven-sql) do przeglądanie informacji, związanych z piłką nożną, w różnych ligach, oraz dodawanie nowych informacji
-7. [implementacja sztucznej sieci neuronowej](#nerual-network-python-numpy) (z trenowaniem, zapisywaniem, tylko przy użyciu NumPy) 
-7. pełna implementacja [uogólnionej listy jednokierunkowej](#singly-linked-list-c)
-8. implementacja algorytmy Uczenia Maszynowego ["AdaBoost"](#ada-boost-python-numpy-pandas)
+## Projects:
+1. [android app](#dukes-excercise-kotlin-android-studio) that allows users to train dodges
+2. [Routing Information Protocol simulation](#routing-information-protocol-rip-simulation-c)
+3. attempt to create (and train) [a neural network that will be able to write new chapter of Harry Potter](#harry-potter-chapter-writter-python-pytorch-jupyternotebook-numpy)
+5. [online shop](#malwa-tea-php-javascript-sql-html-css) of fictionus company called "Malwa Tea" (a website)
+6. [desktop application](#league-viewer-java-swing-maven-sql) that allows users to browse information about football leagues (matches, teams, football players) and to add new data.
+7. [implementation of artificial neural network](#nerual-network-python-numpy) (with training, testing, regularisation, saving and loadning implementation) 
+7. full implementation of [of generic Singly Linked List](#singly-linked-list-c)
+8. implementation of AdaBoost algorithm ["AdaBoost"](#ada-boost-python-numpy-pandas)
 9. [Generating Sequences of Rat Poses](#generating-sequences-of-rat-poses)
 
 <br/>
@@ -27,58 +25,58 @@ Jestem studentem drugiego roku informatyki na Politechnice Warszawskiej na WEiTI
 <br/>
 
 ## Dukes Excercise (Kotlin, Android Studio)
-Aplikacja "Dukes Exercise" została napisana przez mnie przy pomocy Android Studio całkowicie w Kotlinie. Jest dostępna na [Play Store (link)](https://play.google.com/store/apps/details?id=zahenta.dukesexercise). Aplikacja służy do trenowania uników przed uderzeniami.
-* [dokładny opis projektu](https://github.com/12jerek34jeremi/DukesExcercise/blob/main/README.md)
-* [link do video](https://drive.google.com/file/d/14v1DTA3-rx1C68ehiJzEjY5w-fsN8ktP/view?usp=share_link) z opisem projektu
-* [repozytorium](https://github.com/12jerek34jeremi/DukesExcercise)
+The "Dukes Exercise" application was written by me using Android Studio completely in Kotlin. It is available on the [Play Store (link)](https://play.google.com/store/apps/details?id=zahenta.dukesexercise). The application can be used to train dodges before punches.
+* [detailed description of the project](https://github.com/12jerek34jeremi/DukesExcercise/blob/main/README.md)
+* [link to a video](https://drive.google.com/file/d/14v1DTA3-rx1C68ehiJzEjY5w-fsN8ktP/view?usp=share_link) in which project is presented. ***Video is in polish***, because app's user interface is also in polish.
+* [repository](https://github.com/12jerek34jeremi/DukesExcercise)
 
 ![screen](img/dukes_excercise1.jpg)
 
 ---
 <br/><br/>
-## Symulacja protokołu RIP (Routing Information Protocol) (C++)
-Projekt map-rip to symulacja pierwszej wersji protokołu routingu RIP (Routing Information Protocoll). Protokół RIP jest, a właściwie był, używany w sieciach komputerowych przez routery do odnalezienia najlepszej drogi to innych routerów.Każdy router w sieci jest identyfikowany przez adres IP. Jednak, żeby projekt był czytelniejszy, zastąpiłem adresy IP nazwami miast, ale oprócz tego protokół działa tak samo jak RIP 1.
-* [dokładny opis projektu](https://github.com/12jerek34jeremi/map_rip_protocol/blob/main/README.md)
-* [link do video](https://drive.google.com/file/d/1v48XZgSmH-Su3g6PAoOSJAcw1wl3UKvi/view?usp=share_link) z opisem projektu
-* [repozytorium](https://github.com/12jerek34jeremi/map_rip_protocol)
+## Routing Information Protocol (RIP) simulation (C++)
+The map-rip project is a simulation of the first version of the RIP (Routing Information Protocol). The RIP protocol is, or rather was, used by routers in computer networks to find the best route to other routers. Each router in a network is identified by an IP address. However, to make the project more readable, I replaced IP addresses with city names. Apart from that, the protocol works exactly like RIP 1.
+* [detailed description of the project](https://github.com/12jerek34jeremi/map_rip_protocol/blob/main/README.md)
+* [link to a video](https://drive.google.com/file/d/1NYirSYcOkGkS0SOM7VKnOhkDMNWIPKke/view?usp=share_link) in which project is presented.
+* [repository](https://github.com/12jerek34jeremi/map_rip_protocol)
 
 ![screen](img/map_rip1.png)
 
 ---
 <br/><br/>
 ## Harry Potter Chapter Writter (Python, Pytorch, JupyterNotebook, NumPy)
-Próbowałem stworzyć i wytrenować sieć neuronową zdolną do napisania własnego rozdziału Harrego Pottera.
-* [dokładny opis projektu](https://github.com/12jerek34jeremi/harry_potter/blob/main/explanation.ipynb)
-* [repozytorium](https://github.com/12jerek34jeremi/harry_potter)
+I tried to create (and train) a neural network that will be able to write a new chapter of Harry Potter.
+* [detailed description of the project](https://github.com/12jerek34jeremi/harry_potter/blob/main/explanation.ipynb)
+* [repository](https://github.com/12jerek34jeremi/harry_potter)
 
 ![screen](img/harry_potter1.png)
 
 ---
 <br/><br/>
 ## Malwa Tea (PHP, javascript, SQL, HTML, CSS)
-Malwa Tea to projekt strony internetowej sklepu internetowego fikcyjnej firmy Malwa Tea. Zahostowałem tą stronę na Amazon AWS, możesz kliknąc w [ten link](http://ec2-52-87-229-246.compute-1.amazonaws.com/), aby zobaczyć jak strona wygląda.
-* [dokładny opis projektu](https://github.com/12jerek34jeremi/shop2/blob/main/README.md)
-* [link do video](https://drive.google.com/file/d/1TIuaRz3wrAIUWZIIjwZIPpy4jEbDsXGx/view?usp=share_link) z opisem projektu
-* [repozytorium](https://github.com/12jerek34jeremi/shop2)
+Malwa Tea is the project of a fictional company's online store website. Company is called "Malwa Tea". I hosted this website on Amazon AWS, and you can click on [this link](http://ec2-52-87-229-246.compute-1.amazonaws.com/) to see what the website looks like. 
+* [detailed description of the project](https://github.com/12jerek34jeremi/shop2/blob/main/README.md)
+* [link to a video](https://drive.google.com/file/d/1TIuaRz3wrAIUWZIIjwZIPpy4jEbDsXGx/view?usp=share_link) in which project is presented. ***Video is in polish***, because website is also in polish.
+* [repository](https://github.com/12jerek34jeremi/shop2)
 
 ![screen](img/malwa_tea2.png)
 
 ---
 <br/><br/>
 ## League Viewer (java, Swing, Maven, SQL)
-Aplikacja League Viewer była współtworzona przeze mnie w ramach projektu z Programownia Alikacyjnego na uczelni. Aplikacja umożliwia użytkownikom przeglądanie informacji związanych z piłką nożną w różnych ligach (meczy, druży, piłkarzy) oraz dodawanie nowych informacji.
-* [dokładny opis projektu](https://github.com/12jerek34jeremi/league_viewer/blob/main/README.md)
-* [link do video](https://drive.google.com/file/d/1wyUm6_Vz_4pqdqQw1XxXmbbhKgX2G-dE/view?usp=share_link) z opisem projektu
-* [repozytorium](https://github.com/12jerek34jeremi/league_viewer)
+The League Viewer application was co-created by me as part of a project in Application Programming at the university. Application allows users to browse information about football leagues (matches, teams, football players) and to add new data.
+* [detailed description of the project](https://github.com/12jerek34jeremi/league_viewer/blob/main/README.md)
+* [link to a video](https://drive.google.com/file/d/1wyUm6_Vz_4pqdqQw1XxXmbbhKgX2G-dE/view?usp=share_link) in which project is presented. ***Video is in polish***, because app's user interface is also in polish.
+* [repository](https://github.com/12jerek34jeremi/league_viewer)
 
 ![screen](img/league_viewer2.png)
 
 ---
 <br/><br/>
 ## Nerual Network (Python, NumPy)
-Projekt Neural Network to implementacja sztucznej sieci neuronowej (razem z implementacją trenowania, testowania, regularyzacji oraz zapisywania do pliku i wczytywania modelu z pliku).
-* [dokładny opis projektu](https://github.com/12jerek34jeremi/Neural-Network/blob/master/notebook.ipynb)
-* [repozytorium](https://github.com/12jerek34jeremi/Neural-Network)
+Project Neural Network is an implementation of artificial neural network. You can train and train a network as well as save and load a network from a file. Dropdown and L1/L2 regularizations are also implemented.
+* [detailed description of the project](https://github.com/12jerek34jeremi/Neural-Network/blob/master/notebook.ipynb)
+* [repository](https://github.com/12jerek34jeremi/Neural-Network)
 
 ![screen](img/neural_network2.png)
 
@@ -86,26 +84,26 @@ Projekt Neural Network to implementacja sztucznej sieci neuronowej (razem z impl
 <br/><br/>
 ## Singly Linked List (C++)
 Pełna implementacja uogólnionej listy jednokierunkowej. Pozwala na swtorzenie listy o dowolnym typie klucz i dowolnej typie wartości.
-* [dokładny opis projektu](https://github.com/12jerek34jeremi/SLL/blob/main/README.md)
-* [repozytorium](https://github.com/12jerek34jeremi/SLL)
+Full implementation of Singly Linked List. IT allows yo crate a list of any type of key and any type of value.
+* [detailed description of the project](https://github.com/12jerek34jeremi/SLL/blob/main/README.md)
+* [repository](https://github.com/12jerek34jeremi/SLL)
 
 ![screen](img/sll1.png)
 
 ---
 <br/><br/>
 ## Ada Boost (Python, NumPy, Pandas)
-Projekt AdaBoost to moja implementacja algorytmu Uczenia Maszynowego "AdaBoost". Użyłem tej implementacji w tym [konkursie na Kaggle (link)](https://www.kaggle.com/competitions/knsi-golem-bootcamp2021-competition/leaderboard) w którym zdobyłem 6 miejsce. Nie używałem żandych dodatkowych bibliotek Uczenia Maszynowego (typu scikit-learn lub PyTorch), całość jest napisana przy pomocy NumPy i Pandas.
-* [repozytorium](https://github.com/12jerek34jeremi/AdaBoost)
+The AdaBoost project is my original implementation of the Machine Learning algorithm called "AdaBoost" . I used this implementation in the [Kaggle contest (link)](https://www.kaggle.com/competitions/knsi-golem-bootcamp2021-competition/leaderboard) in which I took 6th place. I didn't use any Machine Learning libraries (like scikit-learn or pytorch), it's written using only NumPy and Pandas.
+![screen](img/screen1.png)
+
+* [repository](https://github.com/12jerek34jeremi/AdaBoost)
 
 ![screen](img/adaboost2.png)
 
 ---
 <br/><br/>
 ## Generating Sequences of Rat Poses
-Brałem udział w wydarzeniu [BrainHack Warsaw 2022](https://brainhackwarsaw.github.io/), w którym to, razem z
-innymi członkami zespołu, badaliśmy przestrzeń ukrytą algorytmu
-Normalizing Flow. Algorytm ten przy pomocy funkcji odwracalnych zamienia
-dany rozkład prawdopodobieństwa na rozkład normalny. Na koniec prezentowaliśmy nasz projekt. [link do prezentacji](https://docs.google.com/presentation/d/1G820T4yWyVaXoxoKl5m7DvrIJ4RtSjMvb2mgWAeKOYU/edit?usp=sharing)<br/>
+A took part in event called BrainHack Warsaw 2022 ([link](https://brainhackwarsaw.github.io/)), in which we tested hidden space of Normalising Flow algorythm. This algorithm uses reversivle fuctions to transform some given distribution into a normal distribution. At the end of BrainHack we presented our project to other teams. [link to the presentation](https://docs.google.com/presentation/d/1G820T4yWyVaXoxoKl5m7DvrIJ4RtSjMvb2mgWAeKOYU/edit?usp=sharing)<br/>
 ![screen](img/brainhack1.png)
 
 
