@@ -1,4 +1,4 @@
-# Moje projekty
+# My Projects
 Hi, my name is Jędrzej Chmiel, and this is a list of some of my projects. Below each project's slow description you can find following things:
 * link to the detailed description of the project (Usually it is a link to a githab repository to a README.md file, in which there is project description.)
 * link to a video with an overview of the project (if such a video exists)
