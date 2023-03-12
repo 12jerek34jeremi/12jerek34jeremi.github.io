@@ -8,29 +8,27 @@ Hi, my name is Jędrzej Chmiel, and this is a list of some of my projects. Below
 I am a student of Computer Science (second year) at the Warsaw University of Technology at WEiTI (Faculty of Electronics and Information Technology). I am looking for an apprenticeship or internship for vacation (2023). Here is [link to my CV](https://drive.google.com/file/d/15yf7BUuOwC5cAksuSS0TRkv5WqalND_i/view?usp=share_link), it contains a description of my skills and contact details. If you want to contact me, the best way is to write me a message on [LinkedIn (link)](https://www.linkedin.com/in/j%C4%99drzej-chmiel-481a8423b/).
 
 ## Projects:
-1. [android app](#dukes-excercise-kotlin-android-studio) that allows users to train dodges
+1. attempt to create (and train) [a neural network that will be able to write new chapter of Harry Potter](#harry-potter-chapter-writter-python-pytorch-jupyternotebook-numpy)
 2. [Routing Information Protocol simulation](#routing-information-protocol-rip-simulation-c)
-3. attempt to create (and train) [a neural network that will be able to write new chapter of Harry Potter](#harry-potter-chapter-writter-python-pytorch-jupyternotebook-numpy)
-5. [online shop](#malwa-tea-php-javascript-sql-html-css) of fictionus company called "Malwa Tea" (a website)
-6. [desktop application](#league-viewer-java-swing-maven-sql) that allows users to browse information about football leagues (matches, teams, football players) and to add new data.
-7. [implementation of artificial neural network](#nerual-network-python-numpy) (with training, testing, regularisation, saving and loadning implementation) 
-7. full implementation of [of generic Singly Linked List](#singly-linked-list-c)
-8. implementation of AdaBoost algorithm ["AdaBoost"](#ada-boost-python-numpy-pandas)
-9. [Generating Sequences of Rat Poses](#generating-sequences-of-rat-poses)
+3. implementation of AdaBoost algorithm ["AdaBoost"](#ada-boost-python-numpy-pandas)
+4. [android app](#dukes-excercise-kotlin-android-studio) that allows users to train dodges
+5. [desktop application](#league-viewer-java-swing-maven-sql) that allows users to browse information about football leagues (matches, teams, football players) and to add new data.
+6. [Generating Sequences of Rat Poses](#generating-sequences-of-rat-poses)
+7. [online shop](#malwa-tea-php-javascript-sql-html-css) of fictionus company called "Malwa Tea" (a website)
+8. [implementation of artificial neural network](#nerual-network-python-numpy) (with training, testing, regularisation, saving and loadning implementation) 
+9. full implementation of [of generic Singly Linked List](#singly-linked-list-c)
 
 <br/>
 
 ---
 
-<br/>
+<br/><br/>
+## Harry Potter Chapter Writter (Python, Pytorch, JupyterNotebook, NumPy)
+I tried to create (and train) a neural network that will be able to write a new chapter of Harry Potter.
+* [detailed description of the project](https://github.com/12jerek34jeremi/harry_potter/blob/main/explanation.ipynb)
+* [repository](https://github.com/12jerek34jeremi/harry_potter)
 
-## Dukes Excercise (Kotlin, Android Studio)
-The "Dukes Exercise" application was written by me using Android Studio completely in Kotlin. It is available on the [Play Store (link)](https://play.google.com/store/apps/details?id=zahenta.dukesexercise). The application can be used to train dodges before punches.
-* [detailed description of the project](https://github.com/12jerek34jeremi/DukesExcercise/blob/main/README.md)
-* [link to a video](https://drive.google.com/file/d/14v1DTA3-rx1C68ehiJzEjY5w-fsN8ktP/view?usp=share_link) in which project is presented. ***Video is in polish***, because app's user interface is also in polish.
-* [repository](https://github.com/12jerek34jeremi/DukesExcercise)
-
-![screen](img/dukes_excercise1.jpg)
+![screen](img/harry_potter1.png)
 
 ---
 <br/><br/>
@@ -44,22 +42,23 @@ The map-rip project is a simulation of the first version of the RIP (Routing Inf
 
 ---
 <br/><br/>
-## Harry Potter Chapter Writter (Python, Pytorch, JupyterNotebook, NumPy)
-I tried to create (and train) a neural network that will be able to write a new chapter of Harry Potter.
-* [detailed description of the project](https://github.com/12jerek34jeremi/harry_potter/blob/main/explanation.ipynb)
-* [repository](https://github.com/12jerek34jeremi/harry_potter)
+## Ada Boost (Python, NumPy, Pandas)
+The AdaBoost project is my original implementation of the Machine Learning algorithm called "AdaBoost" . I used this implementation in the [Kaggle contest (link)](https://www.kaggle.com/competitions/knsi-golem-bootcamp2021-competition/leaderboard) in which I took 6th place. I didn't use any Machine Learning libraries (like scikit-learn or pytorch), it's written using only NumPy and Pandas.
+![screen](img/screen1.png)
 
-![screen](img/harry_potter1.png)
+* [repository](https://github.com/12jerek34jeremi/AdaBoost)
+
+![screen](img/adaboost2.png)
 
 ---
 <br/><br/>
-## Malwa Tea (PHP, javascript, SQL, HTML, CSS)
-Malwa Tea is the project of a fictional company's online store website. Company is called "Malwa Tea". I hosted this website on Amazon AWS, and you can click on [this link](http://ec2-52-87-229-246.compute-1.amazonaws.com/) to see what the website looks like. 
-* [detailed description of the project](https://github.com/12jerek34jeremi/shop2/blob/main/README.md)
-* [link to a video](https://drive.google.com/file/d/1TIuaRz3wrAIUWZIIjwZIPpy4jEbDsXGx/view?usp=share_link) in which project is presented. ***Video is in polish***, because website is also in polish.
-* [repository](https://github.com/12jerek34jeremi/shop2)
+## Dukes Excercise (Kotlin, Android Studio)
+The "Dukes Exercise" application was written by me using Android Studio completely in Kotlin. It is available on the [Play Store (link)](https://play.google.com/store/apps/details?id=zahenta.dukesexercise). The application can be used to train dodges before punches.
+* [detailed description of the project](https://github.com/12jerek34jeremi/DukesExcercise/blob/main/README.md)
+* [link to a video](https://drive.google.com/file/d/14v1DTA3-rx1C68ehiJzEjY5w-fsN8ktP/view?usp=share_link) in which project is presented. ***Video is in polish***, because app's user interface is also in polish.
+* [repository](https://github.com/12jerek34jeremi/DukesExcercise)
 
-![screen](img/malwa_tea2.png)
+![screen](img/dukes_excercise1.jpg)
 
 ---
 <br/><br/>
@@ -70,6 +69,22 @@ The League Viewer application was co-created by me as part of a project in Appli
 * [repository](https://github.com/12jerek34jeremi/league_viewer)
 
 ![screen](img/league_viewer2.png)
+
+---
+<br/><br/>
+## Generating Sequences of Rat Poses
+A took part in event called BrainHack Warsaw 2022 ([link](https://brainhackwarsaw.github.io/)), in which we tested hidden space of Normalising Flow algorythm. This algorithm uses reversivle fuctions to transform some given distribution into a normal distribution. At the end of BrainHack we presented our project to other teams. [link to the presentation](https://docs.google.com/presentation/d/1G820T4yWyVaXoxoKl5m7DvrIJ4RtSjMvb2mgWAeKOYU/edit?usp=sharing)<br/>
+![screen](img/brainhack1.png)
+
+---
+<br/><br/>
+## Malwa Tea (PHP, javascript, SQL, HTML, CSS)
+Malwa Tea is the project of a fictional company's online store website. Company is called "Malwa Tea". I hosted this website on Amazon AWS, and you can click on [this link](http://ec2-52-87-229-246.compute-1.amazonaws.com/) to see what the website looks like. 
+* [detailed description of the project](https://github.com/12jerek34jeremi/shop2/blob/main/README.md)
+* [link to a video](https://drive.google.com/file/d/1TIuaRz3wrAIUWZIIjwZIPpy4jEbDsXGx/view?usp=share_link) in which project is presented. ***Video is in polish***, because website is also in polish.
+* [repository](https://github.com/12jerek34jeremi/shop2)
+
+![screen](img/malwa_tea2.png)
 
 ---
 <br/><br/>
@@ -89,21 +104,3 @@ Full implementation of Singly Linked List. IT allows yo crate a list of any type
 * [repository](https://github.com/12jerek34jeremi/SLL)
 
 ![screen](img/sll1.png)
-
----
-<br/><br/>
-## Ada Boost (Python, NumPy, Pandas)
-The AdaBoost project is my original implementation of the Machine Learning algorithm called "AdaBoost" . I used this implementation in the [Kaggle contest (link)](https://www.kaggle.com/competitions/knsi-golem-bootcamp2021-competition/leaderboard) in which I took 6th place. I didn't use any Machine Learning libraries (like scikit-learn or pytorch), it's written using only NumPy and Pandas.
-![screen](img/screen1.png)
-
-* [repository](https://github.com/12jerek34jeremi/AdaBoost)
-
-![screen](img/adaboost2.png)
-
----
-<br/><br/>
-## Generating Sequences of Rat Poses
-A took part in event called BrainHack Warsaw 2022 ([link](https://brainhackwarsaw.github.io/)), in which we tested hidden space of Normalising Flow algorythm. This algorithm uses reversivle fuctions to transform some given distribution into a normal distribution. At the end of BrainHack we presented our project to other teams. [link to the presentation](https://docs.google.com/presentation/d/1G820T4yWyVaXoxoKl5m7DvrIJ4RtSjMvb2mgWAeKOYU/edit?usp=sharing)<br/>
-![screen](img/brainhack1.png)
-
-
